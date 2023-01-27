@@ -1,7 +1,8 @@
 name: smooth_rating_bar
-description: A smooth rating bar with custom svg icons.
-version: 0.0.2
-homepage: "https://github.com/alexxgarci/smooth_rating_bar"
+description: Flutter plugin for creating a smooth rating bar with custom svg icons. Supports Android and iOS.
+version: 0.0.3
+homepage: https://github.com/alexxgarci/smooth_rating_bar
+repository: https://github.com/alexxgarci/smooth_rating_bar
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
