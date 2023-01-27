@@ -104,9 +104,7 @@ class SmoothRatingBarState extends State<SmoothRatingBar>
         RenderBox box = context.findRenderObject()! as RenderBox;
         double dragDx = box.globalToLocal(dragDetails.globalPosition).dx;
         postInvalidateRatingValue(getRatingValue(dragDx));
-        if (onRatingCallback != null) {
-          onRatingCallback(getRatingValue(dragDx));
-        }
+        onRatingCallback(getRatingValue(dragDx));
       },
       child: FadeTransition(
         opacity: animation!,
@@ -136,7 +134,8 @@ class StarRating extends StatelessWidget {
   final bool isBackgroundGrey;
 
   StarRating(
-      {super.key, required this.starCount,
+      {super.key,
+      required this.starCount,
       required this.starSize,
       required this.rating,
       required this.onRatingChanged,

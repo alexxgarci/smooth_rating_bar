@@ -1,7 +1,7 @@
 name: smooth_rating_bar
-description: A new Flutter package project.
+description: A smooth rating bar with custom svg icons.
 version: 0.0.1
-homepage: "a"
+homepage: "https://github.com/alexxgarci/smooth_rating_bar"
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
