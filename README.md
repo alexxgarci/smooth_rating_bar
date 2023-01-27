@@ -13,13 +13,11 @@ and the Flutter guide for
 
 [![pub package](https://img.shields.io/pub/v/smooth_rating_bar.svg)](https://pub.dev/packages/smooth_rating_bar)
 
-A Flutter plugin for launching a URL.
+Smooth Flutter Rating Bar with SVG icons.
 
 |             | Android | iOS  | Linux | macOS  | Web | Windows     |
 | ----------- | ------- | ---- | ----- | ------ | --- | ----------- |
 | **Support** | SDK 16+ | 9.0+ | Any   | 10.11+ | Any | Windows 10+ |
-
-Smooth Flutter Rating Bar with SVG icons.
 
 ## Features
 
