@@ -11,25 +11,32 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
+[![pub package](https://img.shields.io/pub/v/smooth_rating_bar.svg)](https://pub.dev/packages/smooth_rating_bar)
+
+A Flutter plugin for launching a URL.
+
+|             | Android | iOS  | Linux | macOS  | Web | Windows     |
+| ----------- | ------- | ---- | ----- | ------ | --- | ----------- |
+| **Support** | SDK 16+ | 9.0+ | Any   | 10.11+ | Any | Windows 10+ |
+
 Smooth Flutter Rating Bar with SVG icons.
 
 ## Features
 
-Set your own design as rating icons and color them. 
-
-## Getting started
-
+Set your own design as rating icons and color them.
 
 ## Usage
 
-First, you'll have to add to your pubspec.yaml the corresponding assets:
+To use this plugin, add `smooth_rating_bar` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
+
+Then, you'll have to add to assets the corresponding files to full icon, half full icon, and empty icon:
 
 ```yaml
 assets:
-    - assets/star/star.svg
-    - assets/star/star_half.svg
-    - assets/star/star_border.svg
-    - assets/star/star_empty_gray.svg
+  - assets/star/star.svg
+  - assets/star/star_half.svg
+  - assets/star/star_border.svg
+  - assets/star/star_empty_gray.svg
 ```
 
 ```dart
